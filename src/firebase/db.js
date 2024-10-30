@@ -5,14 +5,13 @@ import 'firebase/firestore';
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyCIj2aKqIi4Kh484NxRy9EHO54RQgkizTw",
-    authDomain: "ssm-clg-project.firebaseapp.com",
-    databaseURL: "https://ssm-clg-project-default-rtdb.firebaseio.com",
-    projectId: "ssm-clg-project",
-    storageBucket: "ssm-clg-project.appspot.com",
-    messagingSenderId: "465979826515",
-    appId: "1:465979826515:web:634bc658559ada202141a6",
-    measurementId: "G-VN16J4K56T"
+    apiKey: "AIzaSyABOjTu0prty8ZRMVGC7w59sqDWKQU-UuE",
+    authDomain: "realestate-9c252.firebaseapp.com",
+    projectId: "realestate-9c252",
+    storageBucket: "realestate-9c252.appspot.com",
+    messagingSenderId: "906571719844",
+    appId: "1:906571719844:web:3796d4bf7808b45061b231",
+    measurementId: "G-SBFT8CFZ0M"
   };
   // Initialize Firebase
   export const db = firebase.initializeApp(firebaseConfig).firestore();
